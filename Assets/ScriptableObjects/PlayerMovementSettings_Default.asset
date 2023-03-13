@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b6cd613533645045b72aa31eee6269d, type: 3}
   m_Name: PlayerMovementSettings_Default
   m_EditorClassIdentifier: 
-  turnSpeed: 0
-  speed: 0
-  lerpValue: 0
+  turnSpeed: 6
+  speed: 6
+  lerpValue: 5
   layer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 2147483647
