@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: b194075c54ead4227bf9caaec4c5c551, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 4d6018254688f404d873c53a72da2cd0, type: 2}
 --- !u!1 &10424286
 GameObject:
   m_ObjectHideFlags: 0
@@ -248,7 +248,7 @@ GameObject:
   - component: {fileID: 14461840}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -567,7 +567,7 @@ GameObject:
   - component: {fileID: 35606541}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -663,6 +663,7 @@ GameObject:
   - component: {fileID: 42150826}
   - component: {fileID: 42150825}
   - component: {fileID: 42150823}
+  - component: {fileID: 42150829}
   m_Layer: 0
   m_Name: Red Player
   m_TagString: Untagged
@@ -759,6 +760,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &42150829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42150822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0371a7ec28bfffc4abb5a9dc42ebad08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _selectColor: 0
+  targetBrickParent: {fileID: 616306727}
+  targetBricks: []
+  _animator: {fileID: 42150827}
+  _agent: {fileID: 42150823}
+  _radius: 7
+  _backpackObject: {fileID: 1711356358}
+  _cubes: []
+  _prevObject: {fileID: 702184608}
 --- !u!1 &44878602
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,7 +795,7 @@ GameObject:
   - component: {fileID: 44878603}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -981,7 +1003,7 @@ GameObject:
   - component: {fileID: 55865742}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1078,7 +1100,7 @@ GameObject:
   - component: {fileID: 99253195}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1175,7 +1197,7 @@ GameObject:
   - component: {fileID: 102818900}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1272,7 +1294,7 @@ GameObject:
   - component: {fileID: 108452442}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1369,7 +1391,7 @@ GameObject:
   - component: {fileID: 119919735}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1466,7 +1488,7 @@ GameObject:
   - component: {fileID: 125863847}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1563,7 +1585,7 @@ GameObject:
   - component: {fileID: 128941124}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2140,7 +2162,7 @@ GameObject:
   - component: {fileID: 197035675}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2237,7 +2259,7 @@ GameObject:
   - component: {fileID: 205947443}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2556,7 +2578,7 @@ GameObject:
   - component: {fileID: 251047534}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3237,7 +3259,7 @@ GameObject:
   - component: {fileID: 420757260}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3588,7 +3610,7 @@ GameObject:
   - component: {fileID: 439912975}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3796,7 +3818,7 @@ GameObject:
   - component: {fileID: 443681100}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4115,7 +4137,7 @@ GameObject:
   - component: {fileID: 476218403}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4212,7 +4234,7 @@ GameObject:
   - component: {fileID: 484131873}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4420,7 +4442,7 @@ GameObject:
   - component: {fileID: 542009235}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4517,7 +4539,7 @@ GameObject:
   - component: {fileID: 552506120}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4875,7 +4897,7 @@ GameObject:
   - component: {fileID: 601586060}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5024,7 +5046,7 @@ GameObject:
   - component: {fileID: 642635165}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5232,7 +5254,7 @@ GameObject:
   - component: {fileID: 653393853}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5662,7 +5684,7 @@ GameObject:
   - component: {fileID: 674624706}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6172,7 +6194,7 @@ GameObject:
   - component: {fileID: 730313885}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6269,7 +6291,7 @@ GameObject:
   - component: {fileID: 737107116}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6366,7 +6388,7 @@ GameObject:
   - component: {fileID: 789783669}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6631,7 +6653,7 @@ GameObject:
   - component: {fileID: 813705361}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7380,7 +7402,7 @@ GameObject:
   - component: {fileID: 910177913}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7909,7 +7931,7 @@ GameObject:
   - component: {fileID: 1002677437}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8006,7 +8028,7 @@ GameObject:
   - component: {fileID: 1019088500}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8214,7 +8236,7 @@ GameObject:
   - component: {fileID: 1046919704}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8422,7 +8444,7 @@ GameObject:
   - component: {fileID: 1090912854}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8519,7 +8541,7 @@ GameObject:
   - component: {fileID: 1102325243}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8616,7 +8638,7 @@ GameObject:
   - component: {fileID: 1107798589}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8713,7 +8735,7 @@ GameObject:
   - component: {fileID: 1109813919}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8921,7 +8943,7 @@ GameObject:
   - component: {fileID: 1134022985}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9129,7 +9151,7 @@ GameObject:
   - component: {fileID: 1176365044}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9226,7 +9248,7 @@ GameObject:
   - component: {fileID: 1178209230}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9323,7 +9345,7 @@ GameObject:
   - component: {fileID: 1190927159}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9739,7 +9761,7 @@ GameObject:
   - component: {fileID: 1231049299}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9836,7 +9858,7 @@ GameObject:
   - component: {fileID: 1242808951}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9933,7 +9955,7 @@ GameObject:
   - component: {fileID: 1244427991}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10141,7 +10163,7 @@ GameObject:
   - component: {fileID: 1256494295}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10682,7 +10704,7 @@ GameObject:
   - component: {fileID: 1286201572}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10779,7 +10801,7 @@ GameObject:
   - component: {fileID: 1306064103}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10876,7 +10898,7 @@ GameObject:
   - component: {fileID: 1334874035}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10973,7 +10995,7 @@ GameObject:
   - component: {fileID: 1339688587}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11070,7 +11092,7 @@ GameObject:
   - component: {fileID: 1355104669}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11375,7 +11397,7 @@ GameObject:
   - component: {fileID: 1404719157}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11570,7 +11592,7 @@ GameObject:
   - component: {fileID: 1453920333}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11667,7 +11689,7 @@ GameObject:
   - component: {fileID: 1461819434}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11875,7 +11897,7 @@ GameObject:
   - component: {fileID: 1482235513}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12140,7 +12162,7 @@ GameObject:
   - component: {fileID: 1489946963}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12237,7 +12259,7 @@ GameObject:
   - component: {fileID: 1496528050}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12334,7 +12356,7 @@ GameObject:
   - component: {fileID: 1513473941}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12972,7 +12994,7 @@ GameObject:
   - component: {fileID: 1617186554}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13069,7 +13091,7 @@ GameObject:
   - component: {fileID: 1619951947}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13277,7 +13299,7 @@ GameObject:
   - component: {fileID: 1658217902}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13583,7 +13605,7 @@ GameObject:
   - component: {fileID: 1696281972}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14600,7 +14622,7 @@ GameObject:
   - component: {fileID: 1862866815}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14697,7 +14719,7 @@ GameObject:
   - component: {fileID: 1887203386}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14794,7 +14816,7 @@ GameObject:
   - component: {fileID: 1896916408}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15457,7 +15479,7 @@ GameObject:
   - component: {fileID: 2024620746}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15665,7 +15687,7 @@ GameObject:
   - component: {fileID: 2052522710}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16206,7 +16228,7 @@ GameObject:
   - component: {fileID: 2128874119}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16303,7 +16325,7 @@ GameObject:
   - component: {fileID: 2136668434}
   m_Layer: 10
   m_Name: Brick
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16399,6 +16421,7 @@ GameObject:
   - component: {fileID: 2138917515}
   - component: {fileID: 2138917514}
   - component: {fileID: 2138917518}
+  - component: {fileID: 2138917519}
   m_Layer: 0
   m_Name: Green Player
   m_TagString: Untagged
@@ -16495,6 +16518,27 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &2138917519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138917512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0371a7ec28bfffc4abb5a9dc42ebad08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _selectColor: 1
+  targetBrickParent: {fileID: 155266795}
+  targetBricks: []
+  _animator: {fileID: 2138917516}
+  _agent: {fileID: 2138917518}
+  _radius: 7
+  _backpackObject: {fileID: 2000278634}
+  _cubes: []
+  _prevObject: {fileID: 1608515590}
 --- !u!1 &9171100795061630
 GameObject:
   m_ObjectHideFlags: 0
