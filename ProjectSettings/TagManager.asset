@@ -8,6 +8,7 @@ TagManager:
   - Blue
   - Green
   - Red
+  - Diz
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - brick
   - 
   - 
   - 
