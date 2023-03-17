@@ -1,12 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class PlayerMovementController : MonoBehaviour
 {
+
     [SerializeField] private Camera _cam;
     [SerializeField] private Animator _animator;
     [SerializeField] private PlayerMovementSettings _movementSettings;
+
+    public enum Colors { Red, Green, Blue }
+    [SerializeField] private Colors _selectColor;
+    [SerializeField] private Transform _backpackObject;
+    [SerializeField] private GameObject _prevObject;
+    [SerializeField] private List<GameObject> _bricks = new List<GameObject>();
 
 
     private void FixedUpdate()
@@ -42,6 +50,24 @@ public class PlayerMovementController : MonoBehaviour
                 _animator.SetBool("running", true);
             }
 
+        }
+    }
+
+    private void OnTriggerEnter(Collider target)
+    {
+        if (target.tag == _selectColor.ToString())
+        {
+            target.transform.SetParent(_backpackObject);
+            Vector3 pos = _prevObject.transform.localPosition;
+            pos.y += 0.22f;
+            pos.x = 0;
+            pos.z = 0;
+
+            target.transform.localRotation = new Quaternion(0, 0.7071068f, 0, 0.7071068f);
+            target.transform.DOLocalMove(pos, 0.2f);
+            _prevObject = target.gameObject;
+            _bricks.Add(target.gameObject);
+            target.tag = "Untagged";
         }
     }
 }
