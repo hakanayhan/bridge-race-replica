@@ -6,7 +6,7 @@ using DG.Tweening;
 
 public class AIController : MonoBehaviour
 {
-    public enum Colors { Red, Green, Blue }
+    public enum Colors { Blue = 0, Green = 1, Red = 2 }
     [SerializeField] private Colors _selectColor;
 
     public GameObject targetBrickParent;
@@ -103,6 +103,8 @@ public class AIController : MonoBehaviour
             target.tag = "Untagged";
             targetBricks.Remove(target.gameObject);
             _haveTarget = false;
+
+            GenerateBricks.instance.GenerateBrick((int)_selectColor, this);
         }
     }
 

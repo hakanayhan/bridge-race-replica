@@ -123,6 +123,103 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: 4d6018254688f404d873c53a72da2cd0, type: 2}
+--- !u!1 &3630121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3630122}
+  - component: {fileID: 3630125}
+  - component: {fileID: 3630124}
+  - component: {fileID: 3630123}
+  m_Layer: 6
+  m_Name: RedBrick
+  m_TagString: Red
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &3630122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3630121}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 10.189367, y: -5.502001, z: 9.240242}
+  m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 587280474}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &3630123
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3630121}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &3630124
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3630121}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1bddb8986ce1b4a96bdc48a061f52e29, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &3630125
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3630121}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &10424286
 GameObject:
   m_ObjectHideFlags: 0
@@ -246,7 +343,7 @@ GameObject:
   - component: {fileID: 14461842}
   - component: {fileID: 14461841}
   - component: {fileID: 14461840}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Green
   m_Icon: {fileID: 0}
@@ -565,7 +662,7 @@ GameObject:
   - component: {fileID: 35606543}
   - component: {fileID: 35606542}
   - component: {fileID: 35606541}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Green
   m_Icon: {fileID: 0}
@@ -772,7 +869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0371a7ec28bfffc4abb5a9dc42ebad08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _selectColor: 0
+  _selectColor: 2
   targetBrickParent: {fileID: 616306727}
   targetBricks: []
   _animator: {fileID: 42150827}
@@ -797,7 +894,7 @@ GameObject:
   - component: {fileID: 44878605}
   - component: {fileID: 44878604}
   - component: {fileID: 44878603}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Green
   m_Icon: {fileID: 0}
@@ -1005,7 +1102,7 @@ GameObject:
   - component: {fileID: 55865744}
   - component: {fileID: 55865743}
   - component: {fileID: 55865742}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Red
   m_Icon: {fileID: 0}
@@ -1020,7 +1117,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 55865740}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 4.76, y: 0.11, z: 8.94}
+  m_LocalPosition: {x: 4.76, y: 0.123, z: 8.94}
   m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1102,7 +1199,7 @@ GameObject:
   - component: {fileID: 99253197}
   - component: {fileID: 99253196}
   - component: {fileID: 99253195}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -1199,7 +1296,7 @@ GameObject:
   - component: {fileID: 102818902}
   - component: {fileID: 102818901}
   - component: {fileID: 102818900}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -1296,7 +1393,7 @@ GameObject:
   - component: {fileID: 108452444}
   - component: {fileID: 108452443}
   - component: {fileID: 108452442}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Green
   m_Icon: {fileID: 0}
@@ -1393,7 +1490,7 @@ GameObject:
   - component: {fileID: 119919737}
   - component: {fileID: 119919736}
   - component: {fileID: 119919735}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -1490,7 +1587,7 @@ GameObject:
   - component: {fileID: 125863849}
   - component: {fileID: 125863848}
   - component: {fileID: 125863847}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -1587,7 +1684,7 @@ GameObject:
   - component: {fileID: 128941126}
   - component: {fileID: 128941125}
   - component: {fileID: 128941124}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Green
   m_Icon: {fileID: 0}
@@ -1928,7 +2025,7 @@ Transform:
   - {fileID: 1242808954}
   - {fileID: 2136668437}
   m_Father: {fileID: 587280474}
-  m_RootOrder: 6
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &162699541
 GameObject:
@@ -2164,7 +2261,7 @@ GameObject:
   - component: {fileID: 197035677}
   - component: {fileID: 197035676}
   - component: {fileID: 197035675}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -2261,7 +2358,7 @@ GameObject:
   - component: {fileID: 205947445}
   - component: {fileID: 205947444}
   - component: {fileID: 205947443}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Red
   m_Icon: {fileID: 0}
@@ -2276,7 +2373,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 205947441}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -25.8, y: 0.11, z: 2.5}
+  m_LocalPosition: {x: -25.8, y: 0.123, z: 2.5}
   m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2345,6 +2442,103 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 205947441}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &214490319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 214490320}
+  - component: {fileID: 214490323}
+  - component: {fileID: 214490322}
+  - component: {fileID: 214490321}
+  m_Layer: 6
+  m_Name: GreenBrick
+  m_TagString: Green
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &214490320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214490319}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.14936733, y: -5.502001, z: 11.470242}
+  m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 587280474}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &214490321
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214490319}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &214490322
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214490319}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 65a1d802e4849411caaeb20562f776e5, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &214490323
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214490319}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &223926840
 GameObject:
@@ -2580,7 +2774,7 @@ GameObject:
   - component: {fileID: 251047536}
   - component: {fileID: 251047535}
   - component: {fileID: 251047534}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Red
   m_Icon: {fileID: 0}
@@ -2595,7 +2789,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 251047532}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -10.5, y: 0.11, z: 8.9}
+  m_LocalPosition: {x: -10.5, y: 0.123, z: 8.9}
   m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3261,7 +3455,7 @@ GameObject:
   - component: {fileID: 420757262}
   - component: {fileID: 420757261}
   - component: {fileID: 420757260}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Red
   m_Icon: {fileID: 0}
@@ -3276,7 +3470,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 420757258}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 29.900003, y: 0.11, z: 33.94}
+  m_LocalPosition: {x: 29.900003, y: 0.123, z: 33.94}
   m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3612,7 +3806,7 @@ GameObject:
   - component: {fileID: 439912977}
   - component: {fileID: 439912976}
   - component: {fileID: 439912975}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -3820,7 +4014,7 @@ GameObject:
   - component: {fileID: 443681102}
   - component: {fileID: 443681101}
   - component: {fileID: 443681100}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Red
   m_Icon: {fileID: 0}
@@ -3835,7 +4029,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 443681098}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -10.5, y: 0.11, z: 2.48}
+  m_LocalPosition: {x: -10.5, y: 0.123, z: 2.48}
   m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4139,7 +4333,7 @@ GameObject:
   - component: {fileID: 476218405}
   - component: {fileID: 476218404}
   - component: {fileID: 476218403}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Red
   m_Icon: {fileID: 0}
@@ -4154,7 +4348,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 476218401}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 9.240002, y: 0.11, z: 37}
+  m_LocalPosition: {x: 9.240002, y: 0.123, z: 37}
   m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4236,7 +4430,7 @@ GameObject:
   - component: {fileID: 484131875}
   - component: {fileID: 484131874}
   - component: {fileID: 484131873}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -4444,7 +4638,7 @@ GameObject:
   - component: {fileID: 542009237}
   - component: {fileID: 542009236}
   - component: {fileID: 542009235}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Red
   m_Icon: {fileID: 0}
@@ -4459,7 +4653,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 542009233}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 9.240002, y: 0.11, z: 27.5}
+  m_LocalPosition: {x: 9.240002, y: 0.123, z: 27.5}
   m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4541,7 +4735,7 @@ GameObject:
   - component: {fileID: 552506122}
   - component: {fileID: 552506121}
   - component: {fileID: 552506120}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Green
   m_Icon: {fileID: 0}
@@ -4881,12 +5075,112 @@ Transform:
   - {fileID: 254106694}
   - {fileID: 1488953707}
   - {fileID: 796885505}
+  - {fileID: 595630398}
+  - {fileID: 214490320}
+  - {fileID: 3630122}
   - {fileID: 1982718232}
   - {fileID: 155266796}
   - {fileID: 616306728}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &595630397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 595630398}
+  - component: {fileID: 595630401}
+  - component: {fileID: 595630400}
+  - component: {fileID: 595630399}
+  m_Layer: 6
+  m_Name: BlueBrick
+  m_TagString: Blue
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &595630398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595630397}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 4.9793677, y: -5.502001, z: 15.820242}
+  m_LocalScale: {x: 0.27316892, y: 0.25699282, z: 0.46153423}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 587280474}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &595630399
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595630397}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &595630400
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595630397}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 824018a42084b43e1a0be2d28103300e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &595630401
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595630397}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &601586058
 GameObject:
   m_ObjectHideFlags: 0
@@ -4899,7 +5193,7 @@ GameObject:
   - component: {fileID: 601586062}
   - component: {fileID: 601586061}
   - component: {fileID: 601586060}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -5034,7 +5328,7 @@ Transform:
   - {fileID: 1178209229}
   - {fileID: 730313884}
   m_Father: {fileID: 587280474}
-  m_RootOrder: 7
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &642635163
 GameObject:
@@ -5048,7 +5342,7 @@ GameObject:
   - component: {fileID: 642635167}
   - component: {fileID: 642635166}
   - component: {fileID: 642635165}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Red
   m_Icon: {fileID: 0}
@@ -5063,7 +5357,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 642635163}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 24.54, y: 0.11, z: 27.48}
+  m_LocalPosition: {x: 24.54, y: 0.123, z: 27.48}
   m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5256,7 +5550,7 @@ GameObject:
   - component: {fileID: 653393855}
   - component: {fileID: 653393854}
   - component: {fileID: 653393853}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Green
   m_Icon: {fileID: 0}
@@ -5783,7 +6077,7 @@ GameObject:
   - component: {fileID: 674624708}
   - component: {fileID: 674624707}
   - component: {fileID: 674624706}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Green
   m_Icon: {fileID: 0}
@@ -6293,7 +6587,7 @@ GameObject:
   - component: {fileID: 730313887}
   - component: {fileID: 730313886}
   - component: {fileID: 730313885}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Red
   m_Icon: {fileID: 0}
@@ -6308,7 +6602,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 730313883}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 17.2, y: 0.11, z: 43.760002}
+  m_LocalPosition: {x: 17.2, y: 0.123, z: 43.760002}
   m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6390,7 +6684,7 @@ GameObject:
   - component: {fileID: 737107118}
   - component: {fileID: 737107117}
   - component: {fileID: 737107116}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -6487,7 +6781,7 @@ GameObject:
   - component: {fileID: 789783671}
   - component: {fileID: 789783670}
   - component: {fileID: 789783669}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -6752,7 +7046,7 @@ GameObject:
   - component: {fileID: 813705363}
   - component: {fileID: 813705362}
   - component: {fileID: 813705361}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -7501,7 +7795,7 @@ GameObject:
   - component: {fileID: 910177915}
   - component: {fileID: 910177914}
   - component: {fileID: 910177913}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Red
   m_Icon: {fileID: 0}
@@ -7516,7 +7810,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 910177911}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 4.76, y: 0.11, z: 28.02}
+  m_LocalPosition: {x: 4.76, y: 0.123, z: 28.02}
   m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8030,7 +8324,7 @@ GameObject:
   - component: {fileID: 1002677439}
   - component: {fileID: 1002677438}
   - component: {fileID: 1002677437}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -8127,7 +8421,7 @@ GameObject:
   - component: {fileID: 1019088502}
   - component: {fileID: 1019088501}
   - component: {fileID: 1019088500}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Red
   m_Icon: {fileID: 0}
@@ -8142,7 +8436,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1019088498}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -10.5, y: 0.11, z: 33.92}
+  m_LocalPosition: {x: -10.5, y: 0.123, z: 33.92}
   m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8335,7 +8629,7 @@ GameObject:
   - component: {fileID: 1046919706}
   - component: {fileID: 1046919705}
   - component: {fileID: 1046919704}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -8543,7 +8837,7 @@ GameObject:
   - component: {fileID: 1090912856}
   - component: {fileID: 1090912855}
   - component: {fileID: 1090912854}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Red
   m_Icon: {fileID: 0}
@@ -8558,7 +8852,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1090912852}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -25.8, y: 0.11, z: 37.02}
+  m_LocalPosition: {x: -25.8, y: 0.123, z: 37.02}
   m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8640,7 +8934,7 @@ GameObject:
   - component: {fileID: 1102325245}
   - component: {fileID: 1102325244}
   - component: {fileID: 1102325243}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -8737,7 +9031,7 @@ GameObject:
   - component: {fileID: 1107798591}
   - component: {fileID: 1107798590}
   - component: {fileID: 1107798589}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Green
   m_Icon: {fileID: 0}
@@ -8834,7 +9128,7 @@ GameObject:
   - component: {fileID: 1109813921}
   - component: {fileID: 1109813920}
   - component: {fileID: 1109813919}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -9042,7 +9336,7 @@ GameObject:
   - component: {fileID: 1134022987}
   - component: {fileID: 1134022986}
   - component: {fileID: 1134022985}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Green
   m_Icon: {fileID: 0}
@@ -9250,7 +9544,7 @@ GameObject:
   - component: {fileID: 1176365046}
   - component: {fileID: 1176365045}
   - component: {fileID: 1176365044}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Red
   m_Icon: {fileID: 0}
@@ -9265,7 +9559,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1176365042}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 29.9, y: 0.11, z: 28}
+  m_LocalPosition: {x: 29.9, y: 0.123, z: 28}
   m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9347,7 +9641,7 @@ GameObject:
   - component: {fileID: 1178209232}
   - component: {fileID: 1178209231}
   - component: {fileID: 1178209230}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Red
   m_Icon: {fileID: 0}
@@ -9362,7 +9656,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1178209228}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 29.9, y: 0.11, z: 49.7}
+  m_LocalPosition: {x: 29.9, y: 0.123, z: 49.7}
   m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9444,7 +9738,7 @@ GameObject:
   - component: {fileID: 1190927161}
   - component: {fileID: 1190927160}
   - component: {fileID: 1190927159}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -9860,7 +10154,7 @@ GameObject:
   - component: {fileID: 1231049301}
   - component: {fileID: 1231049300}
   - component: {fileID: 1231049299}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Green
   m_Icon: {fileID: 0}
@@ -9957,7 +10251,7 @@ GameObject:
   - component: {fileID: 1242808953}
   - component: {fileID: 1242808952}
   - component: {fileID: 1242808951}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Green
   m_Icon: {fileID: 0}
@@ -10054,7 +10348,7 @@ GameObject:
   - component: {fileID: 1244427993}
   - component: {fileID: 1244427992}
   - component: {fileID: 1244427991}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -10262,7 +10556,7 @@ GameObject:
   - component: {fileID: 1256494297}
   - component: {fileID: 1256494296}
   - component: {fileID: 1256494295}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Red
   m_Icon: {fileID: 0}
@@ -10277,7 +10571,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256494293}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -25.8, y: 0.11, z: 12}
+  m_LocalPosition: {x: -25.8, y: 0.123, z: 12}
   m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10803,7 +11097,7 @@ GameObject:
   - component: {fileID: 1286201574}
   - component: {fileID: 1286201573}
   - component: {fileID: 1286201572}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Red
   m_Icon: {fileID: 0}
@@ -10818,7 +11112,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1286201570}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 29.899996, y: 0.11, z: 43.760002}
+  m_LocalPosition: {x: 29.899996, y: 0.123, z: 43.760002}
   m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10900,7 +11194,7 @@ GameObject:
   - component: {fileID: 1306064105}
   - component: {fileID: 1306064104}
   - component: {fileID: 1306064103}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -10997,7 +11291,7 @@ GameObject:
   - component: {fileID: 1334874037}
   - component: {fileID: 1334874036}
   - component: {fileID: 1334874035}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Red
   m_Icon: {fileID: 0}
@@ -11012,7 +11306,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1334874033}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -10.5, y: 0.11, z: 27.5}
+  m_LocalPosition: {x: -10.5, y: 0.123, z: 27.5}
   m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11094,7 +11388,7 @@ GameObject:
   - component: {fileID: 1339688589}
   - component: {fileID: 1339688588}
   - component: {fileID: 1339688587}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Red
   m_Icon: {fileID: 0}
@@ -11109,7 +11403,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339688585}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 24.54, y: 0.11, z: 33.899998}
+  m_LocalPosition: {x: 24.54, y: 0.123, z: 33.899998}
   m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11191,7 +11485,7 @@ GameObject:
   - component: {fileID: 1355104671}
   - component: {fileID: 1355104670}
   - component: {fileID: 1355104669}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -11496,7 +11790,7 @@ GameObject:
   - component: {fileID: 1404719159}
   - component: {fileID: 1404719158}
   - component: {fileID: 1404719157}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Red
   m_Icon: {fileID: 0}
@@ -11511,7 +11805,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1404719155}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -25.8, y: 0.11, z: 27.52}
+  m_LocalPosition: {x: -25.8, y: 0.123, z: 27.52}
   m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11691,7 +11985,7 @@ GameObject:
   - component: {fileID: 1453920335}
   - component: {fileID: 1453920334}
   - component: {fileID: 1453920333}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -11788,7 +12082,7 @@ GameObject:
   - component: {fileID: 1461819436}
   - component: {fileID: 1461819435}
   - component: {fileID: 1461819434}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Green
   m_Icon: {fileID: 0}
@@ -11996,7 +12290,7 @@ GameObject:
   - component: {fileID: 1482235515}
   - component: {fileID: 1482235514}
   - component: {fileID: 1482235513}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -12261,7 +12555,7 @@ GameObject:
   - component: {fileID: 1489946965}
   - component: {fileID: 1489946964}
   - component: {fileID: 1489946963}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Green
   m_Icon: {fileID: 0}
@@ -12358,7 +12652,7 @@ GameObject:
   - component: {fileID: 1496528052}
   - component: {fileID: 1496528051}
   - component: {fileID: 1496528050}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Green
   m_Icon: {fileID: 0}
@@ -12455,7 +12749,7 @@ GameObject:
   - component: {fileID: 1513473943}
   - component: {fileID: 1513473942}
   - component: {fileID: 1513473941}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -13093,7 +13387,7 @@ GameObject:
   - component: {fileID: 1617186556}
   - component: {fileID: 1617186555}
   - component: {fileID: 1617186554}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -13190,7 +13484,7 @@ GameObject:
   - component: {fileID: 1619951949}
   - component: {fileID: 1619951948}
   - component: {fileID: 1619951947}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Red
   m_Icon: {fileID: 0}
@@ -13205,7 +13499,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1619951945}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 4.76, y: 0.11, z: 33.96}
+  m_LocalPosition: {x: 4.76, y: 0.123, z: 33.96}
   m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13398,7 +13692,7 @@ GameObject:
   - component: {fileID: 1658217904}
   - component: {fileID: 1658217903}
   - component: {fileID: 1658217902}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Green
   m_Icon: {fileID: 0}
@@ -13704,7 +13998,7 @@ GameObject:
   - component: {fileID: 1696281974}
   - component: {fileID: 1696281973}
   - component: {fileID: 1696281972}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -14753,7 +15047,7 @@ GameObject:
   - component: {fileID: 1862866817}
   - component: {fileID: 1862866816}
   - component: {fileID: 1862866815}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Green
   m_Icon: {fileID: 0}
@@ -14850,7 +15144,7 @@ GameObject:
   - component: {fileID: 1887203388}
   - component: {fileID: 1887203387}
   - component: {fileID: 1887203386}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Red
   m_Icon: {fileID: 0}
@@ -14865,7 +15159,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1887203384}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 4.76, y: 0.11, z: 3}
+  m_LocalPosition: {x: 4.76, y: 0.123, z: 3}
   m_LocalScale: {x: 0.27316886, y: 0.25699282, z: 0.4615341}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14947,7 +15241,7 @@ GameObject:
   - component: {fileID: 1896916410}
   - component: {fileID: 1896916409}
   - component: {fileID: 1896916408}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -15310,7 +15604,7 @@ Transform:
   - {fileID: 1244427990}
   - {fileID: 1109813918}
   m_Father: {fileID: 587280474}
-  m_RootOrder: 5
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2000278633
 GameObject:
@@ -15610,7 +15904,7 @@ GameObject:
   - component: {fileID: 2024620748}
   - component: {fileID: 2024620747}
   - component: {fileID: 2024620746}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -15818,7 +16112,7 @@ GameObject:
   - component: {fileID: 2052522712}
   - component: {fileID: 2052522711}
   - component: {fileID: 2052522710}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Blue
   m_Icon: {fileID: 0}
@@ -16359,7 +16653,7 @@ GameObject:
   - component: {fileID: 2128874121}
   - component: {fileID: 2128874120}
   - component: {fileID: 2128874119}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Green
   m_Icon: {fileID: 0}
@@ -16456,7 +16750,7 @@ GameObject:
   - component: {fileID: 2136668436}
   - component: {fileID: 2136668435}
   - component: {fileID: 2136668434}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Green
   m_Icon: {fileID: 0}
@@ -16676,6 +16970,63 @@ MonoBehaviour:
   - {fileID: 1488953707}
   - {fileID: 796885505}
   _prevObject: {fileID: 1608515590}
+--- !u!1 &2141290693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2141290695}
+  - component: {fileID: 2141290694}
+  m_Layer: 0
+  m_Name: GenerateBricks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2141290694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141290693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8edf160e197c55e499120f3966667329, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _redBrick: {fileID: 3630121}
+  _greenBrick: {fileID: 214490319}
+  _blueBrick: {fileID: 595630397}
+  _redBrickParent: {fileID: 616306728}
+  _greenBrickParent: {fileID: 155266796}
+  _blueBrickParent: {fileID: 1982718232}
+  _minX: -25
+  _maxX: 35
+  _minZ: 0
+  _maxZ: 70
+  _layerMask:
+    serializedVersion: 2
+    m_Bits: 64
+--- !u!4 &2141290695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141290693}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0015560744, y: 0.654, z: -0.30339044}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9171100795061630
 GameObject:
   m_ObjectHideFlags: 0
@@ -22679,7 +23030,7 @@ MonoBehaviour:
   _cam: {fileID: 963194227}
   _animator: {fileID: 8145114212001553480}
   _movementSettings: {fileID: 11400000, guid: 47534d1ea3ed8f54cb5f36ee36d614a0, type: 2}
-  _selectColor: 2
+  _selectColor: 0
   _backpackObject: {fileID: 1721678798}
   _prevObject: {fileID: 665214316}
   _bricks: []

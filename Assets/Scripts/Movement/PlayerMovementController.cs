@@ -10,7 +10,7 @@ public class PlayerMovementController : MonoBehaviour
     [SerializeField] private Animator _animator;
     [SerializeField] private PlayerMovementSettings _movementSettings;
 
-    public enum Colors { Red, Green, Blue }
+    public enum Colors { Blue = 0, Green = 1, Red = 2 }
     [SerializeField] private Colors _selectColor;
     [SerializeField] private Transform _backpackObject;
     [SerializeField] private GameObject _prevObject;
@@ -68,6 +68,8 @@ public class PlayerMovementController : MonoBehaviour
             _prevObject = target.gameObject;
             _bricks.Add(target.gameObject);
             target.tag = "Untagged";
+
+            GenerateBricks.instance.GenerateBrick((int)_selectColor);
         }
     }
 }
