@@ -8,7 +8,10 @@ TagManager:
   - Blue
   - Green
   - Red
-  - Diz
+  - Set
+  - SetRed
+  - SetBlue
+  - SetGreen
   layers:
   - Default
   - TransparentFX

@@ -15,6 +15,7 @@ public class PlayerMovementController : MonoBehaviour
     [SerializeField] private Transform _backpackObject;
     [SerializeField] private GameObject _prevObject;
     [SerializeField] private List<GameObject> _bricks = new List<GameObject>();
+    [SerializeField] private Material _material;
 
 
     private void FixedUpdate()
@@ -70,6 +71,20 @@ public class PlayerMovementController : MonoBehaviour
             target.tag = "Untagged";
 
             GenerateBricks.instance.GenerateBrick((int)_selectColor);
+        }
+
+        if (target.gameObject.tag == "SetRed" || target.gameObject.tag != "Set" + _selectColor.ToString() && target.gameObject.tag.StartsWith("Set"))
+        {
+            if (_bricks.Count > 1)
+            {
+                GameObject obj = _bricks[_bricks.Count - 1];
+                _bricks.RemoveAt(_bricks.Count - 1);
+                Destroy(obj);
+
+                target.GetComponent<MeshRenderer>().material = _material;
+                target.GetComponent<MeshRenderer>().enabled = true;
+                target.tag = "Set" + _selectColor.ToString();
+            }
         }
     }
 }

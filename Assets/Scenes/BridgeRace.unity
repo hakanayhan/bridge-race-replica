@@ -235,7 +235,7 @@ GameObject:
   - component: {fileID: 10424288}
   m_Layer: 0
   m_Name: Brick 12
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -443,7 +443,7 @@ GameObject:
   - component: {fileID: 16457222}
   m_Layer: 0
   m_Name: Brick 3
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -554,7 +554,7 @@ GameObject:
   - component: {fileID: 19271732}
   m_Layer: 0
   m_Name: Brick 4
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -882,6 +882,7 @@ MonoBehaviour:
   - {fileID: 1488953707}
   - {fileID: 796885505}
   _prevObject: {fileID: 702184608}
+  _material: {fileID: 2100000, guid: 1bddb8986ce1b4a96bdc48a061f52e29, type: 2}
 --- !u!1 &44878602
 GameObject:
   m_ObjectHideFlags: 0
@@ -994,7 +995,7 @@ GameObject:
   - component: {fileID: 47688101}
   m_Layer: 0
   m_Name: Brick 5
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1881,7 +1882,7 @@ GameObject:
   - component: {fileID: 142420487}
   m_Layer: 0
   m_Name: Brick 18
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2042,7 +2043,7 @@ GameObject:
   - component: {fileID: 162699543}
   m_Layer: 0
   m_Name: Brick 17
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2153,7 +2154,7 @@ GameObject:
   - component: {fileID: 163227561}
   m_Layer: 0
   m_Name: Brick
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2555,7 +2556,7 @@ GameObject:
   - component: {fileID: 223926842}
   m_Layer: 0
   m_Name: Brick 10
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2666,7 +2667,7 @@ GameObject:
   - component: {fileID: 225814260}
   m_Layer: 0
   m_Name: Brick 12
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2931,7 +2932,7 @@ GameObject:
   - component: {fileID: 258798494}
   m_Layer: 0
   m_Name: Brick 13
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3139,7 +3140,7 @@ GameObject:
   - component: {fileID: 356345896}
   m_Layer: 0
   m_Name: Brick 2
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3347,7 +3348,7 @@ GameObject:
   - component: {fileID: 416469469}
   m_Layer: 0
   m_Name: Brick 18
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3555,7 +3556,7 @@ GameObject:
   - component: {fileID: 425630728}
   m_Layer: 0
   m_Name: Brick 15
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3666,7 +3667,7 @@ GameObject:
   - component: {fileID: 426714402}
   m_Layer: 0
   m_Name: Brick 21
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3906,7 +3907,7 @@ GameObject:
   - component: {fileID: 442344037}
   m_Layer: 0
   m_Name: Brick 19
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4114,7 +4115,7 @@ GameObject:
   - component: {fileID: 443719062}
   m_Layer: 0
   m_Name: Brick 10
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4225,7 +4226,7 @@ GameObject:
   - component: {fileID: 464924047}
   m_Layer: 0
   m_Name: Brick 13
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4530,7 +4531,7 @@ GameObject:
   - component: {fileID: 529792784}
   m_Layer: 0
   m_Name: Brick 16
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4835,7 +4836,7 @@ GameObject:
   - component: {fileID: 572576549}
   m_Layer: 0
   m_Name: Brick 14
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4946,7 +4947,7 @@ GameObject:
   - component: {fileID: 576660120}
   m_Layer: 0
   m_Name: Brick 2
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5442,7 +5443,7 @@ GameObject:
   - component: {fileID: 648691425}
   m_Layer: 0
   m_Name: Brick 5
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5650,7 +5651,7 @@ GameObject:
   - component: {fileID: 654869715}
   m_Layer: 0
   m_Name: Brick 15
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5761,7 +5762,7 @@ GameObject:
   - component: {fileID: 655006050}
   m_Layer: 0
   m_Name: Brick 18
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5969,7 +5970,7 @@ GameObject:
   - component: {fileID: 670773830}
   m_Layer: 0
   m_Name: Brick 24
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6177,7 +6178,7 @@ GameObject:
   - component: {fileID: 675429809}
   m_Layer: 0
   m_Name: Brick 17
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6479,7 +6480,7 @@ GameObject:
   - component: {fileID: 714621333}
   m_Layer: 0
   m_Name: Brick
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6938,7 +6939,7 @@ GameObject:
   - component: {fileID: 811271784}
   m_Layer: 0
   m_Name: Brick 16
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7243,7 +7244,7 @@ GameObject:
   - component: {fileID: 855209506}
   m_Layer: 0
   m_Name: Brick 7
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7354,7 +7355,7 @@ GameObject:
   - component: {fileID: 858995989}
   m_Layer: 0
   m_Name: Brick 8
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7465,7 +7466,7 @@ GameObject:
   - component: {fileID: 867845145}
   m_Layer: 0
   m_Name: Brick 3
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7576,7 +7577,7 @@ GameObject:
   - component: {fileID: 887254779}
   m_Layer: 0
   m_Name: Brick
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7687,7 +7688,7 @@ GameObject:
   - component: {fileID: 887779454}
   m_Layer: 0
   m_Name: Brick 23
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7994,7 +7995,7 @@ GameObject:
   - component: {fileID: 977690457}
   m_Layer: 0
   m_Name: Brick 11
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8105,7 +8106,7 @@ GameObject:
   - component: {fileID: 987596345}
   m_Layer: 0
   m_Name: Brick 12
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8216,7 +8217,7 @@ GameObject:
   - component: {fileID: 997813681}
   m_Layer: 0
   m_Name: Brick 14
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8521,7 +8522,7 @@ GameObject:
   - component: {fileID: 1038124573}
   m_Layer: 0
   m_Name: Brick 20
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8729,7 +8730,7 @@ GameObject:
   - component: {fileID: 1075573750}
   m_Layer: 0
   m_Name: Brick 24
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9228,7 +9229,7 @@ GameObject:
   - component: {fileID: 1111076811}
   m_Layer: 0
   m_Name: Brick 21
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9436,7 +9437,7 @@ GameObject:
   - component: {fileID: 1170719734}
   m_Layer: 0
   m_Name: Brick 11
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9838,7 +9839,7 @@ GameObject:
   - component: {fileID: 1195874829}
   m_Layer: 0
   m_Name: Brick 9
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10046,7 +10047,7 @@ GameObject:
   - component: {fileID: 1217429732}
   m_Layer: 0
   m_Name: Brick 7
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10448,7 +10449,7 @@ GameObject:
   - component: {fileID: 1250648850}
   m_Layer: 0
   m_Name: Brick 4
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10656,7 +10657,7 @@ GameObject:
   - component: {fileID: 1258699118}
   m_Layer: 0
   m_Name: Brick 23
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10767,7 +10768,7 @@ GameObject:
   - component: {fileID: 1261058649}
   m_Layer: 0
   m_Name: Brick 9
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10878,7 +10879,7 @@ GameObject:
   - component: {fileID: 1262828970}
   m_Layer: 0
   m_Name: Brick 17
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10989,7 +10990,7 @@ GameObject:
   - component: {fileID: 1285558500}
   m_Layer: 0
   m_Name: Brick 4
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -11682,7 +11683,7 @@ GameObject:
   - component: {fileID: 1368560106}
   m_Layer: 0
   m_Name: Brick 15
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -12182,7 +12183,7 @@ GameObject:
   - component: {fileID: 1470480152}
   m_Layer: 0
   m_Name: Brick 7
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -12447,7 +12448,7 @@ GameObject:
   - component: {fileID: 1489063949}
   m_Layer: 0
   m_Name: Brick 22
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -12849,7 +12850,7 @@ GameObject:
   - component: {fileID: 1517189197}
   m_Layer: 0
   m_Name: Brick 19
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -12960,7 +12961,7 @@ GameObject:
   - component: {fileID: 1550756617}
   m_Layer: 0
   m_Name: Brick 20
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -13071,7 +13072,7 @@ GameObject:
   - component: {fileID: 1570922539}
   m_Layer: 0
   m_Name: Brick 20
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -13279,7 +13280,7 @@ GameObject:
   - component: {fileID: 1613149688}
   m_Layer: 0
   m_Name: Brick 11
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -13584,7 +13585,7 @@ GameObject:
   - component: {fileID: 1641724326}
   m_Layer: 0
   m_Name: Brick 10
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -13890,7 +13891,7 @@ GameObject:
   - component: {fileID: 1687350459}
   m_Layer: 0
   m_Name: Brick 2
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -14098,7 +14099,7 @@ GameObject:
   - component: {fileID: 1702229006}
   m_Layer: 0
   m_Name: Brick 13
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -14209,7 +14210,7 @@ GameObject:
   - component: {fileID: 1703587438}
   m_Layer: 0
   m_Name: Brick 23
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -14352,7 +14353,7 @@ GameObject:
   - component: {fileID: 1714402216}
   m_Layer: 0
   m_Name: Brick 16
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -14495,7 +14496,7 @@ GameObject:
   - component: {fileID: 1725002384}
   m_Layer: 0
   m_Name: Brick 5
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -14606,7 +14607,7 @@ GameObject:
   - component: {fileID: 1738929705}
   m_Layer: 0
   m_Name: Brick 8
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -14717,7 +14718,7 @@ GameObject:
   - component: {fileID: 1742110982}
   m_Layer: 0
   m_Name: Brick 24
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -14828,7 +14829,7 @@ GameObject:
   - component: {fileID: 1844137025}
   m_Layer: 0
   m_Name: Brick 19
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -14939,7 +14940,7 @@ GameObject:
   - component: {fileID: 1852699765}
   m_Layer: 0
   m_Name: Brick 21
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -15341,7 +15342,7 @@ GameObject:
   - component: {fileID: 1914271121}
   m_Layer: 0
   m_Name: Brick 6
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -15452,7 +15453,7 @@ GameObject:
   - component: {fileID: 1970797459}
   m_Layer: 0
   m_Name: Brick 22
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -15653,7 +15654,7 @@ GameObject:
   - component: {fileID: 2006893033}
   m_Layer: 0
   m_Name: Brick 22
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -15764,7 +15765,7 @@ GameObject:
   - component: {fileID: 2014490668}
   m_Layer: 0
   m_Name: Brick 14
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -16004,7 +16005,7 @@ GameObject:
   - component: {fileID: 2042360671}
   m_Layer: 0
   m_Name: Brick 6
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -16212,7 +16213,7 @@ GameObject:
   - component: {fileID: 2092107727}
   m_Layer: 0
   m_Name: Brick 6
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -16323,7 +16324,7 @@ GameObject:
   - component: {fileID: 2105353878}
   m_Layer: 0
   m_Name: Brick 3
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -16434,7 +16435,7 @@ GameObject:
   - component: {fileID: 2106833278}
   m_Layer: 0
   m_Name: Brick 8
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -16545,7 +16546,7 @@ GameObject:
   - component: {fileID: 2113209851}
   m_Layer: 0
   m_Name: Brick 9
-  m_TagString: Diz
+  m_TagString: Set
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -16970,6 +16971,7 @@ MonoBehaviour:
   - {fileID: 1488953707}
   - {fileID: 796885505}
   _prevObject: {fileID: 1608515590}
+  _material: {fileID: 2100000, guid: 65a1d802e4849411caaeb20562f776e5, type: 2}
 --- !u!1 &2141290693
 GameObject:
   m_ObjectHideFlags: 0
@@ -23034,6 +23036,7 @@ MonoBehaviour:
   _backpackObject: {fileID: 1721678798}
   _prevObject: {fileID: 665214316}
   _bricks: []
+  _material: {fileID: 2100000, guid: 824018a42084b43e1a0be2d28103300e, type: 2}
 --- !u!4 &8145114212512726536
 Transform:
   m_ObjectHideFlags: 0

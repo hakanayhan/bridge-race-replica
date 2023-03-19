@@ -19,6 +19,7 @@ public class AIController : MonoBehaviour
     [SerializeField] private List<GameObject> _bricks = new List<GameObject>();
     [SerializeField] private Transform[] _bridges;
     [SerializeField] private GameObject _prevObject;
+    [SerializeField] private Material _material;
     private Vector3 _targetTransform;
     private bool _haveTarget = false;
 
@@ -49,7 +50,7 @@ public class AIController : MonoBehaviour
             List<Transform> ropesNonActiveChild = new List<Transform>();
             foreach (Transform item in _bridges[randomRope])
             {
-                if (!item.GetComponent<MeshRenderer>().enabled || item.GetComponent<MeshRenderer>().enabled && item.gameObject.tag != "Diz" + _selectColor.ToString())
+                if (!item.GetComponent<MeshRenderer>().enabled || item.GetComponent<MeshRenderer>().enabled && item.gameObject.tag != "Set" + _selectColor.ToString())
                 {
                     ropesNonActiveChild.Add(item);
                 }
@@ -105,6 +106,24 @@ public class AIController : MonoBehaviour
             _haveTarget = false;
 
             GenerateBricks.instance.GenerateBrick((int)_selectColor, this);
+        }
+        else if (target.gameObject.tag == "SetRed" || target.gameObject.tag != "Set" + _selectColor.ToString() && target.gameObject.tag.StartsWith("Set"))
+        {
+            if(_bricks.Count > 1)
+            {
+                GameObject obj = _bricks[_bricks.Count-1];
+                _bricks.RemoveAt(_bricks.Count - 1);
+                Destroy(obj);
+
+                target.GetComponent<MeshRenderer>().material = _material;
+                target.GetComponent<MeshRenderer>().enabled = true;
+                target.tag = "Set" + _selectColor.ToString();
+            }
+            else
+            {
+                _prevObject = _bricks[0].gameObject;
+                _haveTarget = false;
+            }
         }
     }
 
