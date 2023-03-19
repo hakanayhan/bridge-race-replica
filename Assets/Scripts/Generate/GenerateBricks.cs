@@ -37,6 +37,7 @@ public class GenerateBricks : MonoBehaviour
     private void Generate(GameObject gameObject, Transform parent, AIController AIController = null)
     {
         GameObject g = Instantiate(gameObject);
+        g.transform.parent = parent;
         Vector3 desPos = GiveRandomPos();
         g.SetActive(false);
 
